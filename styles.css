@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url("exp5.jpg") no-repeat center center fixed;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.tracker {
+  background:white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(53, 34, 34, 0.1);
+  width: 300px;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+#expense-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#expense-list li {
+  background: #f1f1f1;
+  margin: 5px 0;
+  padding: 8px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#expense-list button {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
